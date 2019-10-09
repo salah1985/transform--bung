@@ -1,0 +1,33 @@
+body{
+    display: flex;
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin: 100px;
+    border-radius: 20px;
+    flex-direction: wrap;
+    transition: 1s transform;
+    justify-content: center;
+}
+.di1:hover{
+    transform: translate(40px ,40px);
+}
+.di2:hover{
+    transform: translatex(40px);
+}
+.di3:hover{
+    transform: translatey(40px);
+}
+.di4:hover{
+    transform: rotate(50deg);
+}
+.di5:hover{
+    transform: scale(1,2);
+}
+.di6:hover{
+    transform: skew(40deg);
+}

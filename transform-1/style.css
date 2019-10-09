@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    transition: all 3s ease;
+    margin: 200px;
+
+}
+div:hover{
+
+    transform: translatey(50px) scale(1.5) rotate(90deg);
+    
+
+}
